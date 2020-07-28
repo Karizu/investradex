@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">http://www.investradex.com</domain>
+        <domain includeSubdomains="true">http://www.investradex.com/Portfolio</domain>
+        <domain includeSubdomains="true">http://www.investradex.com/LQ45</domain>
+        <domain includeSubdomains="true">http://www.investradex.com/Indicate</domain>
+        <domain includeSubdomains="true">www.investradex.com</domain>
+    </domain-config>
+</network-security-config>

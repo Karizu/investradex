@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.boarding_labs.investradex.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_portofolio"
+        android:name="com.boarding_labs.investradex.ui.portofolio.PortofolioFragment"
+        android:label="@string/menu_portofolio"
+        tools:layout="@layout/fragment_portofolio" />
+
+    <fragment
+        android:id="@+id/nav_liquid"
+        android:name="com.boarding_labs.investradex.ui.liquid.LiquidFragment"
+        android:label="@string/menu_liquid"
+        tools:layout="@layout/fragment_liquid" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.boarding_labs.investradex.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.boarding_labs.investradex.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_indicate"
+        android:name="com.boarding_labs.investradex.ui.indicate.IndicateFragment"
+        android:label="@string/menu_indicate"
+        tools:layout="@layout/fragment_indicate" />
+</navigation>
